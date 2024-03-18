@@ -1,4 +1,7 @@
-# courier-mobile-app
+# courier-service-provider
 React native Apps
 
-Part of a complete courier ordering system with 3 apps and 2 dashboards
+# Design
+
+![alt text](<Screenshot 2024-03-17 221952.png>)
+![alt text](<Screenshot 2024-03-17 222029.png>)
