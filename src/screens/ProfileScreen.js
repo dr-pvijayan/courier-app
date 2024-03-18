@@ -16,7 +16,7 @@ import {
 } from 'react-native';
 import { Icon, Header } from 'react-native-elements';
 import ActionSheet from "react-native-actions-sheet";
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import * as ImagePicker from 'expo-image-picker';
 import { language } from 'config';
 var { width, height } = Dimensions.get('window');

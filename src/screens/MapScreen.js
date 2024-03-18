@@ -15,7 +15,7 @@ import { TouchableOpacity as OldTouch } from 'react-native';
 import { TouchableOpacity, BaseButton, TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { MapComponent } from '../components';
 import { Icon, Header, Tooltip, Input } from 'react-native-elements';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import * as Location from 'expo-location';
 var { height, width } = Dimensions.get('window');
 import { language } from 'config';

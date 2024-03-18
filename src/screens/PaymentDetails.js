@@ -11,7 +11,7 @@ import {
   Alert
 } from 'react-native';
 import { Header, CheckBox } from 'react-native-elements';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 var { width, height } = Dimensions.get('window');
 import { PromoComp } from "../components";
 import { language } from 'config';

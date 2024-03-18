@@ -10,7 +10,7 @@ import {
   FlatList
 } from 'react-native';
 import { Header } from 'react-native-elements';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 
 import { language } from 'config';
 import { TouchableOpacity } from 'react-native-gesture-handler';

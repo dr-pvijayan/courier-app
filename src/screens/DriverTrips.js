@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from 'react';
 import { Text, View, StyleSheet, Dimensions, FlatList, Modal, TouchableHighlight, TouchableWithoutFeedback, Switch, Image } from 'react-native';
 import { Button, Header } from 'react-native-elements';
 //import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import { language, dateStyle } from 'config';
 import { useDispatch, useSelector } from 'react-redux';
 import { FirebaseContext } from 'common/src';

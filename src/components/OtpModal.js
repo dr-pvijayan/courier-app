@@ -1,7 +1,7 @@
 import React from "react";
 import { Modal, View, StyleSheet, TextInput } from "react-native";
 import { Icon } from "react-native-elements";
-import { colors } from "../common/theme";
+import { colors } from "../common/theme1";
 import { language } from 'config';
 export default function OtpModal(props) {
 

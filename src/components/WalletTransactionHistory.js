@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, Dimensions, FlatList, StyleSheet } from 'react-native';
 import { Icon } from 'react-native-elements'
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import  { language, dateStyle }  from 'config';
 import { useSelector } from 'react-redux';
 

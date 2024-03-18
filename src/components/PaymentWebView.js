@@ -2,7 +2,7 @@ import React from 'react';
 import { WebView } from 'react-native-webview';
 import { cloud_function_server_url } from 'config';
 
-export default function PaymentWebView(props) {
+export default function paymentWebView(props) {
 
   const onLoadStart = (syntheticEvent) => {
     const { nativeEvent } = syntheticEvent;

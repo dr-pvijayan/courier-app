@@ -1,14 +1,14 @@
 import React from 'react';
 import { Text, View, Image,TouchableOpacity, Platform, StatusBar } from 'react-native';
 import { Icon } from 'react-native-elements'
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 //make a compontent
 const SideMenuHeader = ({headerStyle,userPhoto,userName,userEmail}) =>{
    return (
         <View style={[styles.viewStyle,headerStyle]}>
             <TouchableOpacity style={styles.userImageView} >
                  <Image 
-                    source={userPhoto == null?require('../../assets/images/profilePic.png'):{uri:userPhoto}}
+                    source={userPhoto == null?require('../../assets/ImagesBacup/profilePic.png'):{uri:userPhoto}}
                     style={styles.imageStyle}
                 />
             </TouchableOpacity>   

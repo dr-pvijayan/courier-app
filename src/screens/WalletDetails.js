@@ -10,7 +10,7 @@ import {
   Alert
 } from 'react-native';
 import { Header, Icon } from 'react-native-elements';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 var { height } = Dimensions.get('window');
 import { language } from 'config';
 import { useSelector } from 'react-redux';

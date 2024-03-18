@@ -1,6 +1,6 @@
 import React, {useState,useEffect} from 'react';
 import { Header } from 'react-native-elements';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import { 
     StyleSheet,
     View,

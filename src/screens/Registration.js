@@ -8,7 +8,7 @@ import { FirebaseContext } from 'common/src';
 export default function RegistrationPage(props) {
   const { api } = useContext(FirebaseContext);
   const {
-    emailSignUp, 
+    emailSignup, 
     validateReferer,
     checkUserExists
   } = api;
@@ -41,7 +41,7 @@ export default function RegistrationPage(props) {
         if (regData.referralId && regData.referralId.length > 0) {
           validateReferer(regData.referralId).then((referralInfo)=>{
             if (referralInfo.uid) {
-              emailSignUp({...regData, signupViaReferral: referralInfo.uid}).then((res)=>{
+              emailSignup({...regData, signupViaReferral: referralInfo.uid}).then((res)=>{
                 setLoading(false);
                 if(res.uid){
                   Alert.alert(language.alert,language.account_create_successfully);
@@ -59,7 +59,7 @@ export default function RegistrationPage(props) {
             Alert.alert(language.alert,language.referer_not_found)
           });
         } else {
-          emailSignUp(regData).then((res)=>{
+          emailSignup(regData).then((res)=>{
             setLoading(false);
             if(res.uid){
               Alert.alert(language.alert,language.account_create_successfully);

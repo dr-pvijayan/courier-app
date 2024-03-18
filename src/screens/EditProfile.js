@@ -11,7 +11,7 @@ import {
     Alert
 } from 'react-native';
 import { Icon, Button, Header, Input } from 'react-native-elements'
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import { language } from 'config';
 var { height } = Dimensions.get('window');
 import { useSelector, useDispatch } from 'react-redux';

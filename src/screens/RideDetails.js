@@ -12,7 +12,7 @@ import {
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 import { Header, Rating, Avatar, Button } from 'react-native-elements';
 import Dash from 'react-native-dash';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 var { width } = Dimensions.get('window');
 import { language } from 'config';
 import { useSelector } from 'react-redux';

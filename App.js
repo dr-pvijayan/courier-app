@@ -42,10 +42,10 @@ export default function App() {
   const _loadResourcesAsync = async () => {
     return Promise.all([
       Asset.loadAsync([
-        require('./assets/images/background.jpg'),
-        require('./assets/images/logo165x90white.png'),
-        require('./assets/images/bg.jpg'),
-        require('./assets/images/intro.jpg'),
+        require('./assets/ImagesBacup/background.jpg'),
+        require('./assets/ImagesBacup/logo165x90white.png'),
+        require('./assets/ImagesBacup/bg.jpg'),
+        require('./assets/ImagesBacup/intro.jpg'),
       ]),
       Font.loadAsync({
         'Ubuntu-Bold': require('./assets/fonts/Ubuntu-Bold.ttf'),
@@ -95,7 +95,7 @@ export default function App() {
       :
       <View style={styles.container}>
         <ImageBackground
-          source={require('./assets/images/intro.jpg')}
+          source={require('./assets/ImagesBacup/intro.jpg')}
           resizeMode="stretch"
           style={styles.imagebg}
         >

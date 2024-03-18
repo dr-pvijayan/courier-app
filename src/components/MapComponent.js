@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 import { Image } from 'react-native';
-import mapdriversIcon from '../../assets/images/map-drivers.png';
+import mapdriversIcon from '../../assets/ImagesBackup/map-drivers.png';
 
 export default function MapComponent(props) {
 

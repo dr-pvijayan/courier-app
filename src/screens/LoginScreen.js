@@ -17,7 +17,7 @@ import { TouchableOpacity } from "react-native-gesture-handler";
 import SegmentedControlTab from 'react-native-segmented-control-tab';
 import { useDispatch, useSelector } from 'react-redux';
 import { FirebaseContext } from 'common/src';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import { FirebaseRecaptchaVerifierModal } from "expo-firebase-recaptcha";
 import RNPickerSelect from 'react-native-picker-select';
 import { 

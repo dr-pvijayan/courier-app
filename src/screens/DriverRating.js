@@ -11,7 +11,7 @@ import {
 } from 'react-native';
 import { Divider, Button, Header } from 'react-native-elements';
 import StarRating from 'react-native-star-rating';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 var { width } = Dimensions.get('window');
 import { language, dateStyle } from 'config';
 import { useDispatch, useSelector } from 'react-redux';

@@ -10,7 +10,7 @@ import { language } from 'config';
 import { useSelector, useDispatch } from "react-redux";
 import { FirebaseContext } from 'common/src';
 
-export default function AuthLoadingScreen(props) {
+export default function authLoadingScreen(props) {
   const { api } = useContext(FirebaseContext);
   const auth = useSelector(state => state.auth);
   const dispatch = useDispatch();

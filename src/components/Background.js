@@ -8,7 +8,7 @@ export default function Background(props) {
   return (
     <ImageBackground style={styles.imgBackground}
       resizeMode='cover'
-      source={require('../../assets/images/background.jpg')}>
+      source={require('../../assets/ImagesBackup/background.jpg')}>
       {props.children}
     </ImageBackground>
   );

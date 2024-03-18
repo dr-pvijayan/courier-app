@@ -1,6 +1,6 @@
 import { createSwitchNavigator,createAppContainer } from 'react-navigation';
 import { AuthStack, DispatcherRootNavigator, DriverRootNavigator, AdminRootNavigator } from './MainNavigator';
-import AuthLoadingScreen from '../screens/AuthLoadingScreen';
+import AuthLoadingScreen from '../screens/authLoadingScreen';
 
 const AppNavigator= createSwitchNavigator({
         AuthLoading: AuthLoadingScreen,

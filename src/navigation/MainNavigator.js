@@ -21,8 +21,8 @@ import {
     DriverTrips,
     WithdrawMoneyScreen,
     DriverIncomeScreen
-} from '../screens';
-import SideMenu from '../components/SideMenu';
+} from '../screens/Index';
+import SideMenu from '../components/sideMenu';
 
 //app stack for user end
 export const AppStack = {

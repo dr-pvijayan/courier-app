@@ -4,7 +4,7 @@ import {
     Text,
     TouchableOpacity,
   } from 'react-native';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 
 
 export default function Button(props){

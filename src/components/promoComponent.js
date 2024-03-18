@@ -7,7 +7,7 @@ import {
   TouchableOpacity
 } from "react-native";
 import { Avatar, Button } from "react-native-elements";
-import { colors } from "../common/theme";
+import { colors } from "../common/theme1";
 import { language } from 'config';
 import { useSelector } from 'react-redux';
 

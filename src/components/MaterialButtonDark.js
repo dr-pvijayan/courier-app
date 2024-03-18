@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, TouchableOpacity, Text } from "react-native";
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 
 function MaterialButtonDark(props) {
   return (

@@ -5,7 +5,7 @@ import * as TaskManager from 'expo-task-manager';
 import * as Location from 'expo-location';
 import { Alert, Platform, PermissionsAndroid } from 'react-native';
 import { language } from 'config';
-import { colors } from './src/common/theme';
+import { colors } from './src/common/theme1';
 import GetPushToken from './src/components/GetPushToken';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Audio } from 'expo-av';

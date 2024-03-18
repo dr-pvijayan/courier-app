@@ -19,14 +19,14 @@ import MapView, { PROVIDER_GOOGLE, Marker, AnimatedRegion } from 'react-native-m
 import { OtpModal } from '../components';
 import StarRating from 'react-native-star-rating';
 import RadioForm from 'react-native-simple-radio-button';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 var { width, height } = Dimensions.get('window');
 import { language } from 'config';
 import { useSelector, useDispatch } from 'react-redux';
 import { NavigationEvents } from 'react-navigation';
 import Polyline from '@mapbox/polyline';
 import getDirections from 'react-native-google-maps-directions';
-import scooterIcon from '../../assets/images/pickupscooter.png';
+import scooterIcon from '../../assets/ImagesBackup/pickupscooter.png';
 import { FirebaseContext } from 'common/src';
 import * as ImagePicker from 'expo-image-picker';
 

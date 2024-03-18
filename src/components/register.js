@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import Background from './Background';
 import { Icon, Button, Header, Input } from 'react-native-elements'
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 var { height } = Dimensions.get('window');
 import { 
     language,
@@ -240,7 +240,7 @@ export default function Registration(props) {
                     uploadImage()
                 }
                 <View style={styles.logo}>
-                    <Image source={require('../../assets/images/logo165x90white.png')} />
+                    <Image source={require('../../assets/ImagesBacup/logo165x90white.png')} />
                 </View>
                 <KeyboardAvoidingView behavior={Platform.OS == 'ios' ? "padding" : "padding"} style={styles.form}>
                     <View style={styles.containerStyle}>
@@ -638,7 +638,7 @@ export default function Registration(props) {
                             capturedImage?
                                 <View style={styles.imagePosition}>
                                     <TouchableOpacity style={styles.photoClick} onPress={cancelPhoto}>
-                                        <Image source={require('../../assets/images/cross.png')} resizeMode={'contain'} style={styles.imageStyle} />
+                                        <Image source={require('../../assets/ImagesBacup/cross.png')} resizeMode={'contain'} style={styles.imageStyle} />
                                     </TouchableOpacity>
                                     <Image source={{ uri: capturedImage }} style={styles.photoResult} resizeMode={'cover'} />
                                 </View>
@@ -657,7 +657,7 @@ export default function Registration(props) {
                                         <TouchableOpacity style={styles.flexView1} onPress={showActionSheet}>
                                             <View>
                                                 <View style={styles.imageFixStyle}>
-                                                    <Image source={require('../../assets/images/camera.png')} resizeMode={'contain'} style={styles.imageStyle2} />
+                                                    <Image source={require('../../assets/ImagesBacup/camera.png')} resizeMode={'contain'} style={styles.imageStyle2} />
                                                 </View>
                                             </View>
                                         </TouchableOpacity>

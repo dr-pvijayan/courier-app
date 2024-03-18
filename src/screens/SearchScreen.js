@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Platform, StatusBar, Button, Alert } from 'react-native';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import {
     Google_Map_API_Key,
     language,

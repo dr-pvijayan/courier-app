@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, FlatList, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import { Icon } from 'react-native-elements'
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 import { language, dateStyle } from 'config';
 import { useSelector } from 'react-redux';
 
@@ -48,7 +48,7 @@ export default function RideList(props) {
                             item.status == 'CANCELLED' ?
                                 <Image
                                     style={styles.cancelImageStyle}
-                                    source={require('../../assets/images/cancel.png')}
+                                    source={require('../../assets/ImagesBacup/cancel.png')}
                                 />
                                 :
                                 null

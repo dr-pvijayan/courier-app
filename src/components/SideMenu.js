@@ -14,7 +14,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Icon } from 'react-native-elements';
 import { NavigationActions } from 'react-navigation';
 import SideMenuHeader from './SideMenuHeader';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 var { width } = Dimensions.get('window');
 import { useSelector, useDispatch } from "react-redux";
 import { language } from 'config';
@@ -24,7 +24,7 @@ import { FirebaseContext } from 'common/src';
 
 const LOCATION_TASK_NAME = 'background-location-task';
 
-export default function SideMenu(props){
+export default function sideMenu(props){
 
     const { api } = useContext(FirebaseContext);
     const { signOut, updateProfile } = api;
@@ -166,7 +166,7 @@ export default function SideMenu(props){
             </View>
             {/* <View>
                 <Image
-                    source={require("../../assets/images/logo165x90white.png")}
+                    source={require("../../assets/ImagesBacup/logo165x90white.png")}
                     style={{ width: '90%', marginBottom:10 }}
                 />
             </View> */}

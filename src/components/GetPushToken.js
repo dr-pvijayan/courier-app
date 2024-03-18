@@ -2,7 +2,7 @@ import * as Notifications from 'expo-notifications';
 import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 import { language } from 'config';
-import { colors } from '../common/theme';
+import { colors } from '../common/theme1';
 
 export default async function GetPushToken() {
   let token;
